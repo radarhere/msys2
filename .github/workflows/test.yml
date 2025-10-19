@@ -38,4 +38,5 @@ jobs:
 
       - name: Install
         run: |
+          uname
           python3 -m pip install .
