@@ -38,4 +38,4 @@ jobs:
 
       - name: Install
         run: |
-          python3 -m pip install .
+          AR="ar" python3 -m pip install .
