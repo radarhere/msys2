@@ -32,6 +32,8 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pacman -Q
+          pacman -Suy --noconfirm --needed
           pacman -S --noconfirm pactoys
 
           pacboy -S --noconfirm gcc:p python-pip:p
